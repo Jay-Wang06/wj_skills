@@ -14,6 +14,8 @@
 | [ask-before-code](ask-before-code/) | 动手前先澄清需求：阻塞问题、范围、薄计划，避免做错方向 |
 | [rewrite-clear](rewrite-clear/) | 把含糊的需求/邮件/笔记改写成清晰、可执行的表述 |
 | [changelog-user](changelog-user/) | 把 commit/PR 转成面向用户的更新说明（What's New） |
+| [roguelike-day](roguelike-day/) | 短局文字肉鸽：小地图、资源与事件，约 15～20 回合 |
+| [lateral-room](lateral-room/) | 海龟汤 / 情境谜题：只答是、否、无关，逼近真相 |
 
 ## 各 skill 说明
 
@@ -52,6 +54,18 @@
 把技术向的 commit/PR 改写成用户能看懂的更新说明：讲结果、藏实现，按新增/改进/修复等分类，破坏性变更附应对方式。
 
 **适用**：写 changelog、release notes、What's New。
+
+### roguelike-day
+
+短局文字肉鸽：默认 3×3 地图、HP/补给、随机事件与简化检定，约 15～20 回合通关或战败。支持 `/new` `/map` `/save` `/load` 等指令。
+
+**适用**：开肉鸽、短局冒险、文字地牢。
+
+### lateral-room
+
+海龟汤式情境谜题主持：公布汤面后几乎只答「是 / 否 / 无关 / 半对」，可用 `/hint` `/closeness` `/giveup`。
+
+**适用**：海龟汤、lateral thinking、旁敲侧击猜故事。
 
 ## 使用方式
 
